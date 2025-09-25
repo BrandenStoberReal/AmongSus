@@ -11,7 +11,7 @@ func main() {
 	apiBase := "/api/v1/"
 
 	// Register handlers
-	RegisterServerHandlers(apiBase)
+	RegisterServerApiHandlers(apiBase)
 
 	port := "80"
 

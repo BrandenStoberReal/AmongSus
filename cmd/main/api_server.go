@@ -2,7 +2,7 @@ package main
 
 import "net/http"
 
-func RegisterServerHandlers(apiBase string) {
+func RegisterServerApiHandlers(apiBase string) {
 	http.HandleFunc(apiBase+"server/info", serverInfoHandler)
 }
 
