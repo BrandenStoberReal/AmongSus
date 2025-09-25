@@ -22,7 +22,7 @@ jobs:
         go-version: '1.24'
 
     - name: Build
-      run: go build ./pkg/backend
+      run: cd ./pkg/backend && go build
 
     - name: Test
-      run: go test ./pkg/backend
+      run: cd ./pkg/backend && go test
